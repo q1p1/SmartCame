@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "baseUrl": "./", // تأكد من تعيين baseUrl إلى "./"
+    "paths": {
+      "@components/*": ["src/components/*"] // مثال على تعيين مسارات مخصصة
+    },
+    "esModuleInterop": true
+  }
+}
